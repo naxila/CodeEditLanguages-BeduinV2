@@ -70,8 +70,8 @@ public extension CodeLanguage {
     )
     
     /// A language structure for `Beduin`
-    static let bash: CodeLanguage = .init(
-        id: .bash,
+    static let beduin: CodeLanguage = .init(
+        id: .beduin,
         tsName: "beduin",
         extensions: ["json", "beduin"]
     )
