@@ -28,6 +28,15 @@
       }
     },
     {
+      "identity" : "tree-sitter-beduin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/naxila/tree-sitter-beduin.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "b301f1d95d64efbb60809383e20a2b53354d4c1e"
+      }
+    },
+    {
       "identity" : "tree-sitter-c",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/tree-sitter/tree-sitter-c.git",

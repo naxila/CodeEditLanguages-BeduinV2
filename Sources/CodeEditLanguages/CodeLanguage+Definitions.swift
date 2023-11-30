@@ -13,6 +13,7 @@ public extension CodeLanguage {
     static let allLanguages: [CodeLanguage] = [
         .agda,
         .bash,
+        .beduin,
         .c,
         .cpp,
         .cSharp,
@@ -66,6 +67,13 @@ public extension CodeLanguage {
         id: .bash,
         tsName: "bash",
         extensions: ["sh", "bash"]
+    )
+    
+    /// A language structure for `Beduin`
+    static let bash: CodeLanguage = .init(
+        id: .bash,
+        tsName: "beduin",
+        extensions: ["json", "beduin"]
     )
 
     /// A language structure for `C`

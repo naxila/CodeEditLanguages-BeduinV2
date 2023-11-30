@@ -90,7 +90,6 @@
 				28B3F048290C367C000CD04D /* TreeSitterJava in Frameworks */,
 				6CEC70FE29C3A85000B61C7A /* TreeSitterRegex in Frameworks */,
 				282E5977298051980064B34A /* TreeSitterYAML in Frameworks */,
-				6CA62EA929F9D36700785B11 /* TreeSitterTS in Frameworks */,
 				9D7399242A5A245000CEF6E8 /* TreeSitterAgda in Frameworks */,
 				8E7B8ABD2A5D916F00CFC1A7 /* TreeSitterPython in Frameworks */,
 				2886C788298135540023E016 /* TreeSitterKotlin in Frameworks */,
@@ -276,6 +275,7 @@
 				8E7B8ABB2A5D916F00CFC1A7 /* XCRemoteSwiftPackageReference "tree-sitter-python" */,
 				8E7B0EA72A5D9BB60040DDAB /* XCRemoteSwiftPackageReference "tree-sitter-toml" */,
 				9D920B962A93B248004E4451 /* XCRemoteSwiftPackageReference "tree-sitter-jsdoc" */,
+				71AA6A812B18150A0049238B /* XCRemoteSwiftPackageReference "tree-sitter-beduin" */,
 			);
 			productRefGroup = 28B3F00D290C207D000CD04D /* Products */;
 			projectDirPath = "";
@@ -714,6 +714,14 @@
 			repositoryURL = "https://github.com/thecoolwinter/tree-sitter-regex/";
 			requirement = {
 				branch = feature/spm;
+				kind = branch;
+			};
+		};
+		71AA6A812B18150A0049238B /* XCRemoteSwiftPackageReference "tree-sitter-beduin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/naxila/tree-sitter-beduin.git";
+			requirement = {
+				branch = master;
 				kind = branch;
 			};
 		};

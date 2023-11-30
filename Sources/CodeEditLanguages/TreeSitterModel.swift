@@ -24,6 +24,8 @@ public class TreeSitterModel {
             return nil
         case .bash:
             return bashQuery
+        case .beduin:
+            return beduinQuery
         case .c:
             return cQuery
         case .cpp:
@@ -110,6 +112,11 @@ public class TreeSitterModel {
     /// Query for `Bash` files.
     public private(set) lazy var bashQuery: Query? = {
         return queryFor(.bash)
+    }()
+    
+    /// Query for `Beduin` files.
+    public private(set) lazy var beduinQuery: Query? = {
+        return queryFor(.beduin)
     }()
 
     /// Query for `C` files.
